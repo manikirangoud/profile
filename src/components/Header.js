@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="flex justify-between bg-white p-3 font-bold 
     border-b border-gray-300 rounded-b-lg"> 
-        Manikirans' Profile
+        Manikirans' Protfolio
         <Navigation/>
     </header>
   );

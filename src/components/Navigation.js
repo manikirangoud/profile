@@ -13,10 +13,10 @@ function Navigation() {
     menu =<div className="show-menu shadow fixed top-auto mt-3 left-0 w-full 
           z-50 rounded-b-lg">
        <ul>
-        <li className="p-2 pl-3 border-b border-gray-100 cursor-pointer">L Music Player</li>   
-        <li className="p-2 pl-3 border-b border-gray-100 cursor-pointer">Food Order</li>   
-        <li className="p-2 pl-3 border-b border-gray-100 cursor-pointer">Bluetooth Beacons</li>   
-        <li className="p-2 pl-3 border-b border-gray-100 cursor-pointer rounded-b-lg">Hire Manikiran ?</li>   
+        <li className="p-2 pl-3 cursor-pointer">L Music Player</li>   
+        <li className="p-2 pl-3 cursor-pointer">Food Order</li>   
+        <li className="p-2 pl-3 cursor-pointer">Bluetooth Beacons</li>   
+        <li className="p-2 pl-3 cursor-pointer rounded-b-lg">Hire Manikiran ?</li>   
         </ul> 
     </div>
   }

@@ -1,14 +1,12 @@
 import React from 'react';
 import Section from './components/Section';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <div className="bg-gray-100 h-screen">
-      <Header/>
-      <Section/>
-      <Footer/>
+      <Navigation />
+      <Section />
     </div>
   );
 }

@@ -1,18 +1,466 @@
-@tailwind base;
-
-@tailwind components;
-
-@tailwind utilities;
-
-body{
-    font-family: 'Ubuntu';
+@font-face {
+    font-family: 'ubuntu';
+    src: url('./fonts/ubuntu-regular.ttf');
 }
 
-.show-menu{
+@font-face {
+    font-family: 'ubuntu-bold';
+    src: url('./fonts/ubuntu-bold.ttf');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: ubuntu;
+}
+
+.padding-top{
+    padding-top: 60px;
+}
+
+.vh-min-85{
+    min-height: 85vh;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+li.active:last-child a {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+/*nav styles*/
+
+.navbar-nav {
+    margin: 0 -15px;
+}
+
+.navbar {
     backdrop-filter: saturate(150%) blur(10px);
     background-color: rgba(255,255,255, 0.4);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     box-shadow: 1px 1px 3px rgba(33, 33, 33, 0.1);
+}
+
+.nav-item.nav-link {
+    color: rgba(33, 33, 33, 0.4) !important;
+    font-size: 1.1rem;
+    font-family: ubuntu-bold;
+}
+
+.nav-item.nav-link.active {
+    color: rgba(33, 33, 33, 1.0) !important;
+}
+
+.nav-item.nav-link:hover{
+    color: #212121 !important;
+}
+
+#btnNavbar span:nth-child(2){
+    max-width: 17px;
+}
+
+.navbar-toggler{
+    margin-bottom: 0; 
+}
+
+.navbar-toggler .icon-bar {
+    height: 3px;
+    width: 30px;
+    margin-bottom: 5px;
+    background-color: rgba(33, 33, 33, .8);
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px rgba(33, 33, 33, 0.3);
+}
+
+.navbar-brand{
+    font-weight: 900;
+}
+
+.navbar-collapse.collapse{
+    margin-left: 0;
+}
+
+/*
+ *Common Styles
+*/
+
+.panel, .panel-heading {
+    border: 0;
+}
+
+.panel-title {
+    color: #212121;
+    font-weight: 700;
+    margin-top: 7px;
+    font-size: 1.5em;
+}
+
+.btn-outline {
+    border-color: #212121;
+    color: #212121;
+}
+
+.btn-primary {
+    background-color: #212121;
+    border: 1px solid rgba(33,33,33, 0.2);
+}
+
+.btn-primary:hover, .btn-outline:hover{
+    background-color: #eeeeee;
+    color: #212121;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.section-container {
+    padding-top: 80px;
+}
+
+.section-container > div {
+    margin: 0 16px 32px 16px;
+}
+
+.video, .images-main{
+    position: relative;
+}
+
+/*To not get complete width while loading*/
+video, .images {
+    max-width: 250px;
+}
+
+.notch {
+    width: 90px;
+    height: 17px;
+    position: absolute;
+    background-color: #212121;
+    z-index: 15;
+    border-radius: 0 0 30px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.speaker {
+    width: 25px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 1.0);
+    margin-right: 7px;
+}
+
+.sensor {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1.0);
+}
+
+.section-container > .video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*section styles*/
+.section {
+    padding-left: 0;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.col-md-4 {
+    padding: 0;
+}
+
+.images-main, .panel, .video {
+    border-radius: 30px;
+    /*box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4),
+                -3px -3px 4px rgba(255, 255, 255, 0.4);*/
+    box-shadow: 0.1px 0.1px 5px rgba(33, 33, 33, 0.1),
+        -0.1px -0.1px 5px rgba(33, 33, 33, 0.1)
+}
+
+
+.bg-1 {
+    border: 9px solid #212121;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    height: 520px;
+    border-radius: 13px;
+}
+
+.images-main, .images {
+    height: 520px;
+    border-radius: 30px;
+}
+
+hr{
+    margin: 20px 0 0 0;
+}
+
+
+.panel {
+    border-radius: 0 20px 0 20px;
+    margin-bottom: 0;
+}
+
+
+.video {
+    position: relative; 
+}
+
+.left-btns {
+    position: absolute;
+    left: -5px;
+    top: 10%;
+}
+
+.right-btns {
+    position: absolute;
+    right: -5px;
+    top: 20%;
+}
+
+.left-btn1 {
+    background-color: #212121;
+    width: 5px;
+    height: 20px;
+    border-radius: 3px 0 0 3px;
+    margin-bottom: 20px;
+}
+
+.left-btn2, .left-btn3 {
+    background-color: #212121;
+    width: 5px;
+    height: 35px;
+    border-radius: 3px 0 0 3px;
+    margin-bottom: 10px;
+}
+
+.left-btn1, .left-btn2, .left-btn3 {
+    box-shadow: -3px -3px 4px rgba(255, 255, 255, 0.4);
+}
+
+.bg-1, .right-btn1 {
+    box-shadow: 2px 2px 5px rgba(33, 33, 33, 0.4);
+}
+
+.right-btn1 {
+    background-color: #212121;
+    width: 5px;
+    height: 70px;
+    border-radius: 0 3px 3px 0;
+}
+
+.section video, .section .images-main {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/*
+ *
+ *Section 1 Styles
+ *
+ */
+.section1 {
+    /*background-color: rgba(255, 224, 133, 1);*/ /*Yellow - ffe085*/
+    background-color: rgba(255, 255, 255, 1);
+}
+.panel-heading.section1 {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+.panel-body.section1 {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+
+
+/*
+ *
+ *Section 2 Styles
+ *
+ */
+.section2 {
+    /*background-color: rgba(238, 238, 238, 0.8);*/ /*Blue - 0878c0*/
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.panel-heading.section2 {
+    /*background-color: rgba(238, 238, 238, 0.6) !important;*/
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+.panel-body.section2 {
+    /*background-color: rgba(238, 238, 238, 0.3) !important;*/
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+
+/*
+ *
+ *Section 3 Styles
+ *
+ */
+.section3 {
+    /*background-color: rgba(33, 33, 33, 0.6);*/ /*Blue - 0878c0*/
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.panel-heading.section3 {
+   /* background-color: rgba(33, 33, 33, 0.3) !important;*/
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.panel-body.section3 {
+   /* background-color: rgba(33, 33, 33, 0.1) !important;*/
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+#section3 .bg-2 {
+    background-color: rgba(255, 255, 255, 1.0);
+}
+
+
+/*
+ *
+ *Section 4 Styles
+ *
+ */
+.section4 {
+    background-color: rgba(0, 117, 94, 0.5); /*Blue - 0878c0*/
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.panel-heading.section4 {
+   /* background-color: rgba(0, 117, 94, 0.4) !important;*/
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+.panel-body.section4 {
+   /* background-color: rgba(0, 117, 94, 0.1) !important;*/
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+
+.section-container > .images-main > .bg-1 > .images img {
+    height: 520px;
+    margin: auto;
+}
+
+.section-container > .images-main > .bg-1 > .images {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: hidden;
+    border-radius: 15px;
+}
+
+
+.section-container > .video > video {
+    height: 520px;
+    max-height: 520px;
+}
+
+.section-container > .images-main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 534px;
+}
+
+.button-left {
+    background: rgba(255, 255, 255, 0.7);
+    color: #212121;
+    z-index: 15;
+    font-size: 1.5rem;
+    border-radius: 0 30px 30px 0;
+    opacity: 0.7;
+}
+
+.button-right {
+    background: rgba(255, 255, 255, 0.7);
+    color: #212121;
+    position: absolute;
+    z-index: 15;
+    font-size: 1.5rem;
+    border-radius: 30px 0 0 30px;
+    opacity: 0.7;
+}
+
+.button-left:hover, .button-right:hover{
+    opacity: 1.0;
+}
+
+
+
+.profile-photo {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    border: 1px solid #212121;
+    box-shadow: 0 4px 8px 0 #7fbaae;
+}
+
+.notch-left{
+    background-color: #212121;
+    width: 15px;
+    height: 10px;
+    top: -4px;
+    left: -4px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 992px){
+
+    .section-container {
+        height: 100vh;
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .section-container {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    /*nav styles*/
+
+    .navbar.fixed-top {
+        padding-left: 16px;
+    }
+
+    .navbar-nav {
+        padding-right: 24px;
+    }
+
 }
 

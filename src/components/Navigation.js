@@ -1,36 +1,42 @@
-import  React, {useState} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-
+import  React, { useState } from 'react';
+import { Nav } from 'react-bootstrap'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function Navigation() {
 
-  const [showMenu, setShowMenu] = useState(false)
-
-  let menu;
-
-  if(showMenu){
-    menu =<div className="show-menu shadow fixed top-auto mt-3 left-0 w-full 
-          z-50 rounded-b-lg">
-       <ul>
-        <li className="p-2 pl-3 cursor-pointer">L Music Player</li>   
-        <li className="p-2 pl-3 cursor-pointer">Food Order</li>   
-        <li className="p-2 pl-3 cursor-pointer">Bluetooth Beacons</li>   
-        <li className="p-2 pl-3 cursor-pointer rounded-b-lg">Hire Manikiran ?</li>   
-        </ul> 
-    </div>
-  }
+  const [navbarToggle, setNavbarToggle] = useState(false);
+  var navbarClasses = navbarToggle ? 'navbar-collapse' : 'collapse navbar-collapse'; 
 
   return (
-    <nav> 
-        <span className="text-xl font-bold cursor-pointer">           
-            <FontAwesomeIcon 
-                icon={faBars}
-                onClick={() => setShowMenu(!showMenu)}
-            />           
-        </span>
-        {menu}
-    </nav>
+    <Router>
+      <div className="navbar navbar-expand-lg navbar-light fixed-top">
+          <Nav.Link className="navbar-brand pl-0" href="#">Manikirans' Portfolio</Nav.Link>
+          <button className="navbar-toggler d-lg-none d-flex flex-column border-0" 
+            type="button" data-toggle="collapse" 
+            onClick = {() => setNavbarToggle(!navbarToggle)}
+            data-target="#navbarContent" id="btnNavbar">
+            <span className="icon-bar mt-1"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+          </button>        
+          <div className={navbarClasses} id="navbarContent">
+            <ul className="navbar-nav ml-auto">
+                <Nav.Link className="nav-item active" href="#">L Music Player</Nav.Link>
+                <Nav.Link className="nav-item" href="#">Food Order</Nav.Link>
+                <Nav.Link className="nav-item" href="#">Bluetooth Beacons</Nav.Link>
+                <Nav.Link className="nav-item" href="#">Hire Manikiran ?</Nav.Link>
+            </ul>
+          </div>
+      </div>
+      <Switch>
+          <Route exact path="#">
+          </Route>       
+      </Switch>
+    </Router>
   );
 }
 

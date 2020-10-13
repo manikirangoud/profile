@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.925403d6.chunk.css",
-    "main.js": "/profile/static/js/main.7592779a.chunk.js",
-    "main.js.map": "/profile/static/js/main.7592779a.chunk.js.map",
+    "main.css": "/profile/static/css/main.025e3cac.chunk.css",
+    "main.js": "/profile/static/js/main.ee9059dc.chunk.js",
+    "main.js.map": "/profile/static/js/main.ee9059dc.chunk.js.map",
     "runtime-main.js": "/profile/static/js/runtime-main.8771bb24.js",
     "runtime-main.js.map": "/profile/static/js/runtime-main.8771bb24.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/profile/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.ff49e407.chunk.js": "/profile/static/js/2.ff49e407.chunk.js",
-    "static/js/2.ff49e407.chunk.js.map": "/profile/static/js/2.ff49e407.chunk.js.map",
+    "static/js/2.b3b56f18.chunk.js": "/profile/static/js/2.b3b56f18.chunk.js",
+    "static/js/2.b3b56f18.chunk.js.map": "/profile/static/js/2.b3b56f18.chunk.js.map",
     "index.html": "/profile/index.html",
-    "precache-manifest.9188a004c1d07afe7f0874b1137d4864.js": "/profile/precache-manifest.9188a004c1d07afe7f0874b1137d4864.js",
+    "precache-manifest.b8ee0c7e740c0a020d1934c767179f69.js": "/profile/precache-manifest.b8ee0c7e740c0a020d1934c767179f69.js",
     "service-worker.js": "/profile/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/profile/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.925403d6.chunk.css.map": "/profile/static/css/main.925403d6.chunk.css.map",
-    "static/js/2.ff49e407.chunk.js.LICENSE.txt": "/profile/static/js/2.ff49e407.chunk.js.LICENSE.txt",
+    "static/css/main.025e3cac.chunk.css.map": "/profile/static/css/main.025e3cac.chunk.css.map",
+    "static/js/2.b3b56f18.chunk.js.LICENSE.txt": "/profile/static/js/2.b3b56f18.chunk.js.LICENSE.txt",
     "static/media/image_001.jpg": "/profile/static/media/image_001.19a872bf.jpg",
     "static/media/image_002.jpg": "/profile/static/media/image_002.cfc4f112.jpg",
     "static/media/image_003.jpg": "/profile/static/media/image_003.6a12d205.jpg",
     "static/media/image_004.jpg": "/profile/static/media/image_004.23337963.jpg",
+    "static/media/image_005.jpg": "/profile/static/media/image_005.ad77a798.jpg",
     "static/media/index.css": "/profile/static/media/ubuntu-regular.6bb9beb4.ttf",
     "static/media/video_001.mp4": "/profile/static/media/video_001.c30d4a94.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.8771bb24.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.ff49e407.chunk.js",
-    "static/css/main.925403d6.chunk.css",
-    "static/js/main.7592779a.chunk.js"
+    "static/js/2.b3b56f18.chunk.js",
+    "static/css/main.025e3cac.chunk.css",
+    "static/js/main.ee9059dc.chunk.js"
   ]
 }

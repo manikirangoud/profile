@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.b193c01e.chunk.css",
-    "main.js": "/profile/static/js/main.ff9dd4e0.chunk.js",
-    "main.js.map": "/profile/static/js/main.ff9dd4e0.chunk.js.map",
+    "main.css": "/profile/static/css/main.13c76aeb.chunk.css",
+    "main.js": "/profile/static/js/main.17bcd09e.chunk.js",
+    "main.js.map": "/profile/static/js/main.17bcd09e.chunk.js.map",
     "runtime-main.js": "/profile/static/js/runtime-main.8771bb24.js",
     "runtime-main.js.map": "/profile/static/js/runtime-main.8771bb24.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/profile/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.8c762828.chunk.js": "/profile/static/js/2.8c762828.chunk.js",
-    "static/js/2.8c762828.chunk.js.map": "/profile/static/js/2.8c762828.chunk.js.map",
+    "static/js/2.874673d1.chunk.js": "/profile/static/js/2.874673d1.chunk.js",
+    "static/js/2.874673d1.chunk.js.map": "/profile/static/js/2.874673d1.chunk.js.map",
     "index.html": "/profile/index.html",
-    "precache-manifest.516bdb184075e48451eb9563a4f65474.js": "/profile/precache-manifest.516bdb184075e48451eb9563a4f65474.js",
+    "precache-manifest.9cdfd94532b9581e8940662956fb774e.js": "/profile/precache-manifest.9cdfd94532b9581e8940662956fb774e.js",
     "service-worker.js": "/profile/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/profile/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.b193c01e.chunk.css.map": "/profile/static/css/main.b193c01e.chunk.css.map",
-    "static/js/2.8c762828.chunk.js.LICENSE.txt": "/profile/static/js/2.8c762828.chunk.js.LICENSE.txt",
-    "static/media/bluetooth_beacons.apk": "/profile/static/media/bluetooth_beacons.0bc5af3b.apk",
-    "static/media/food_order.apk": "/profile/static/media/food_order.a21d191b.apk",
+    "static/css/main.13c76aeb.chunk.css.map": "/profile/static/css/main.13c76aeb.chunk.css.map",
+    "static/js/2.874673d1.chunk.js.LICENSE.txt": "/profile/static/js/2.874673d1.chunk.js.LICENSE.txt",
     "static/media/image_001.jpg": "/profile/static/media/image_001.a7ef7516.jpg",
     "static/media/image_002.jpg": "/profile/static/media/image_002.cfc4f112.jpg",
     "static/media/image_003.jpg": "/profile/static/media/image_003.cc00e3e5.jpg",
@@ -23,16 +21,15 @@
     "static/media/image_005.jpg": "/profile/static/media/image_005.ad77a798.jpg",
     "static/media/image_006.jpg": "/profile/static/media/image_006.fa1a20d2.jpg",
     "static/media/image_007.jpg": "/profile/static/media/image_007.68a70abd.jpg",
-    "static/media/l_music_player.apk": "/profile/static/media/l_music_player.aa9249dc.apk",
-    "static/media/plastic_reducer.apk": "/profile/static/media/plastic_reducer.6f530736.apk",
+    "static/media/profile_photo.jpg": "/profile/static/media/profile_photo.d3e79d06.jpg",
     "static/media/index.css": "/profile/static/media/ubuntu-regular.6bb9beb4.ttf",
     "static/media/video_001.mp4": "/profile/static/media/video_001.c30d4a94.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.8771bb24.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.8c762828.chunk.js",
-    "static/css/main.b193c01e.chunk.css",
-    "static/js/main.ff9dd4e0.chunk.js"
+    "static/js/2.874673d1.chunk.js",
+    "static/css/main.13c76aeb.chunk.css",
+    "static/js/main.17bcd09e.chunk.js"
   ]
 }

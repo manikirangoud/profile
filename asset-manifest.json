@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.c3451bd2.chunk.css",
-    "main.js": "/profile/static/js/main.4aa52ea9.chunk.js",
-    "main.js.map": "/profile/static/js/main.4aa52ea9.chunk.js.map",
+    "main.css": "/profile/static/css/main.064a4b4f.chunk.css",
+    "main.js": "/profile/static/js/main.3fef5513.chunk.js",
+    "main.js.map": "/profile/static/js/main.3fef5513.chunk.js.map",
     "runtime-main.js": "/profile/static/js/runtime-main.8771bb24.js",
     "runtime-main.js.map": "/profile/static/js/runtime-main.8771bb24.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/profile/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.048085e3.chunk.js": "/profile/static/js/2.048085e3.chunk.js",
-    "static/js/2.048085e3.chunk.js.map": "/profile/static/js/2.048085e3.chunk.js.map",
+    "static/css/2.c5d84db0.chunk.css": "/profile/static/css/2.c5d84db0.chunk.css",
+    "static/js/2.92e5f4f7.chunk.js": "/profile/static/js/2.92e5f4f7.chunk.js",
+    "static/js/2.92e5f4f7.chunk.js.map": "/profile/static/js/2.92e5f4f7.chunk.js.map",
     "index.html": "/profile/index.html",
-    "precache-manifest.4c54a37f6e7c916109fd57203fbe8f88.js": "/profile/precache-manifest.4c54a37f6e7c916109fd57203fbe8f88.js",
+    "precache-manifest.55a891d29b90e4151335944d442e6c53.js": "/profile/precache-manifest.55a891d29b90e4151335944d442e6c53.js",
     "service-worker.js": "/profile/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/profile/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.c3451bd2.chunk.css.map": "/profile/static/css/main.c3451bd2.chunk.css.map",
-    "static/js/2.048085e3.chunk.js.LICENSE.txt": "/profile/static/js/2.048085e3.chunk.js.LICENSE.txt",
+    "static/css/2.c5d84db0.chunk.css.map": "/profile/static/css/2.c5d84db0.chunk.css.map",
+    "static/css/main.064a4b4f.chunk.css.map": "/profile/static/css/main.064a4b4f.chunk.css.map",
+    "static/js/2.92e5f4f7.chunk.js.LICENSE.txt": "/profile/static/js/2.92e5f4f7.chunk.js.LICENSE.txt",
     "static/media/bluetooth_beacons.apk": "/profile/static/media/bluetooth_beacons.0bc5af3b.apk",
     "static/media/bluetooth_beacons.mp4": "/profile/static/media/bluetooth_beacons.f449fafb.mp4",
     "static/media/fast_news.apk": "/profile/static/media/fast_news.8dd87307.apk",
@@ -36,9 +36,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8771bb24.js",
-    "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.048085e3.chunk.js",
-    "static/css/main.c3451bd2.chunk.css",
-    "static/js/main.4aa52ea9.chunk.js"
+    "static/css/2.c5d84db0.chunk.css",
+    "static/js/2.92e5f4f7.chunk.js",
+    "static/css/main.064a4b4f.chunk.css",
+    "static/js/main.3fef5513.chunk.js"
   ]
 }
